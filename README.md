@@ -18,3 +18,14 @@ Given a master `.docx` file with information about multiple products, the script
 This solution is especially helpful for engineers or teams who frequently need to extract and send product-specific documentation.
 
 ---
+file structure
+alesthing/
+│
+├── product_doc_filter/
+│   ├── master.docx                # The original document containing all products
+│   ├── clean_master.py            # Python script to extract product-specific content
+│   └── output/                    # Folder where new cleaned docs are saved
+│       └── product_X_cleaned.docx
+│
+├── requirements.txt               # Python dependencies
+├── README.md                      # You're reading it!
